@@ -52,6 +52,7 @@ body {
   backdrop-filter: blur(10px);
   border-radius: 30px 0 0 30px;
   height: 100vh;
+  overflow-y: scroll;
 }
 
 .search-box {
@@ -251,12 +252,13 @@ body {
   }
 
   .weather-container {
+    overflow-y: hidden;
     backdrop-filter: blur(4px);
-    position: absolute;
-    top: 0;
-    bottom: 0;
     border-radius: 0;
     width: 100%;
+    flex: 1;
+    height: auto;
+    min-height: 100vh;
   }
 
   .location {
