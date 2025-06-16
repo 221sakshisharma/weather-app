@@ -27,6 +27,7 @@ body {
   justify-content: space-between;
   color: rgb(221, 232, 236);
   margin-bottom: -30px;
+  margin-left: -15px;
 }
 
 .app-title-special {
@@ -47,7 +48,7 @@ body {
 }
 
 .weather-container {
-  flex: 0.42;
+  flex: 0.45;
   background-color: rgba(34, 38, 45, 0.4);
   backdrop-filter: blur(10px);
   border-radius: 30px 0 0 30px;
@@ -236,7 +237,7 @@ body {
   }
 }
 
-@media (max-width: 980px) {
+@media (max-width: 1000px) {
   body {
     overflow-y: scroll;
   }
@@ -252,22 +253,24 @@ body {
   }
 
   .weather-container {
-    overflow-y: hidden;
-    backdrop-filter: blur(4px);
+    overflow: hidden;
+    backdrop-filter: blur(3px);
     border-radius: 0;
     width: 100%;
     flex: 1;
     height: auto;
     min-height: 100vh;
+    max-width: unset;
   }
 
   .location {
-    font-weight: 200;
+    font-weight: 300;
     font-size: 15px;
     line-height: 15px;
   }
 
   .current-date {
+    font-weight: 300;
     font-size: 15px;
     margin: 0;
   }
