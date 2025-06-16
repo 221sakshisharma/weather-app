@@ -1,14 +1,16 @@
-# Weather App
+# 🌤️ Weather App
 
-A simple and visually appealing weather app that displays the current weather and time of any city.
+A clean and interactive weather application that shows the current time and weather conditions for any city, with beautiful dynamic backgrounds.
 
 ## 📸 Preview
 
-![Weather App Preview](screenshot.png)
+<img src="preview1.png" alt="Weather App Preview" width="400"/>
+<img src="preview2.png" alt="Weather App Preview" width="400"/>
 
-## 🛠️ Tech Stack
+## 🛠 Tech Stack
 
-- HTML
-- CSS (with transitions and media queries)
-- JavaScript (vanilla)
-- [OpenWeatherMap API](https://openweathermap.org/)
+- **HTML**
+- **CSS** (with transitions and responsive design)
+- **Vanilla JavaScript**
+- [**OpenWeatherMap API**](https://openweathermap.org/)
+- [**Unsplash API**](https://unsplash.com/developers)
