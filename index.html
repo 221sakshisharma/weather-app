@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+
+    <!-- style -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Weather App</title>
+</head>
+
+<body>
+    <div class="container time-container">
+        <p class="app-title"><span class="app-title-special"></span></p>
+        <div class="time-location-conatiner">
+            <h2 class="location"></h2>
+            <p class="current-date"></p>
+        </div>
+    </div>
+    
+    <div class="container weather-container">
+        
+    
+        <div class="search-box">
+            <input type="text" placeholder="Search City" class="search-input">
+            <i class="fa-solid fa-magnifying-glass search-icon"></i>
+            <i class="fa-solid fa-location-crosshairs current-location-icon"></i>
+        </div>
+
+        
+
+        <div class="no-city-found-container">
+            No City Found
+        </div>
+
+        <div class="weather-summary-container">
+            <div class="temperature-container">
+                <img src="assets/weather/clouds.svg" alt="clouds" class="temperature-img large">
+                <div class="temperature-weather-info">
+                    <div class="small-screen-time-container">
+                        <p class="location"></p>
+                        <p class="current-date"></p>
+                    </div>
+                    <p class="temperature-info"><span class="temperature">30</span>° C</p>
+                    <p class="weather-info">Clouds</p>
+                    
+                </div>
+            </div>
+
+            <div class="humidity-wind-container">
+                <div class="humidity-container">
+                    <span class="material-symbols-outlined condition-icon">water_drop</span>
+                    <div class="condition-info">
+                        <p class="condition-title">Humidity</p>
+                        <p class="condition-value"><span class="humidity">74</span>%</p>
+                    </div>
+                </div>
+
+                <div class="wind-container">
+                    <span class="material-symbols-outlined condition-icon">air</span>
+                    <div class="condition-info">
+                        <p class="condition-title">Wind Speed</p>
+                        <p class="condition-value"><span class="wind-speed">4.12</span> m/s</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="forecast-section">
+                <div class="forecast-container">
+                    <img src="assets/weather/rain.svg" alt="" class="temperature-img small">
+                    <div class="day-info">
+                        <p class="day-date">28 Aug</p>
+                        <p class="day-temperature-info"><span class="day-temperature">27</span>° C</p>
+                    </div>
+                </div>
+                <div class="forecast-container">
+                    <img src="assets/weather/rain.svg" alt="" class="temperature-img small">
+                    <div class="day-info">
+                        <p class="day-date">28 Aug</p>
+                        <p class="day-temperature-info"><span class="day-temperature">27</span>° C</p>
+                    </div>
+                </div>
+                <div class="forecast-container">
+                    <img src="assets/weather/rain.svg" alt="" class="temperature-img small">
+                    <div class="day-info">
+                        <p class="day-date">28 Aug</p>
+                        <p class="day-temperature-info"><span class="day-temperature">27</span>° C</p>
+                    </div>
+                </div>
+                <div class="forecast-container">
+                    <img src="assets/weather/rain.svg" alt="" class="temperature-img small">
+                    <div class="day-info">
+                        <p class="day-date">28 Aug</p>
+                        <p class="day-temperature-info"><span class="day-temperature">27</span>° C</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+
+    </div>
+
+
+</body>
+<script type="module" src="script.js"></script>
+</html>
