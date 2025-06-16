@@ -2,6 +2,10 @@
 
 A clean and interactive weather application that shows the current time and weather conditions for any city, with beautiful dynamic backgrounds.
 
+## 🔗 Live Demo
+
+https://221sakshisharma.github.io/weather-app/
+
 ## 📸 Preview
 
 <img src="preview1.png" alt="Weather App Preview" width="400"/>
